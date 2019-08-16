@@ -1,16 +1,15 @@
 
 
-katz_deli = []
-
-
 def line(katz_deli)
 
-  if array.empty?
+
+  if katz_deli.empty?
     puts "The line is currently empty."
-
-else
-
-  array.each.map do |person, index|
-    "Hello, #{person}! You're #{index+1} in line!"
+  else
+    current_line = "The line is currently:"
+    katz_deli.each.with_index(1) do |person, i|
+      current_line << " #{i}. #{person}"
+    end
+    puts current_line
   end
 end
