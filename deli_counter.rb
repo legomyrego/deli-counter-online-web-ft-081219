@@ -1,19 +1,20 @@
 
 array = ["jack", "mark", "steven", "arnold", "chris"]
 
+
+
 def line(array)
 
-  i = 0
+  if array.empty?
+    puts "The line is currently empty."
 
-  if array[i] < array.length
+else
 
-    return array[i]
-
+  array.each.map do |person, index|
+    "Hello, #{person}! You're #{index+1} in line!"
   end
-
-  i += 1
-
 end
+
 
 
     
