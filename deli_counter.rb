@@ -14,7 +14,3 @@ else
     "Hello, #{person}! You're #{index+1} in line!"
   end
 end
-
-
-
-    
