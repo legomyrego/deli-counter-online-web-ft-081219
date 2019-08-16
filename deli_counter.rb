@@ -1,9 +1,9 @@
 
-array = ["jack", "mark", "steven", "arnold", "chris"]
+
+katz_deli = []
 
 
-
-def line(array)
+def line(katz_deli)
 
   if array.empty?
     puts "The line is currently empty."
