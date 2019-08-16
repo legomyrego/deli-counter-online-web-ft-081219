@@ -1,21 +1,19 @@
-def line(katz_deli)
 
-  counter = 0
+array = ["jack", "mark", "steven", "arnold", "chris"]
 
-  katz_deli = []
+def line(array)
 
-  if katz_deli.length == 0
-    puts "The line is currently empty."
+  i = 0
 
-  elsif katz_deli.length > 0
+  if array[i] < array.length
 
+    return array[i]
 
-  katz_deli.each do |name|
+  end
 
-    counter +=
-
-    puts "Current line is #{counter} #{name}"
+  i += 1
 
 end
 
-end
+
+    
